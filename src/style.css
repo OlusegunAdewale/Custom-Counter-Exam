@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: rgba(47, 144, 201, 0.89); /* Changed text color */
+  background-color: #ffffff;
+}
+
+.countContainer {
+  text-align: center;
+  border: 4px double gray;
+  background-color: #e9dede;
+  border-radius: 0.5rem;
+  max-height: auto;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.buttonContainer {
+  /* Changed class name */
+  margin-bottom: 10px;
+}
+
+.increase {
+  width: 7rem;
+  height: 3rem;
+  margin-inline: 10px;
+  margin-block-start: 9px;
+  border: 5px solid transparent;
+  animation: border-color-animation 1s infinite;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 8px 2px #003e80;
+  font-weight: bold;
+  font-size: large;
+  color: rgb(0, 182, 136);
+}
+
+@keyframes border-color-animation {
+  0% {
+    border-color: #2b2929;
+  }
+  100% {
+    border-color: #28795e;
+  }
+}
+.numCount {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgba(19, 18, 18, 0.89); /* Matched text color with body */
+}
+
+/* NotFound.css */
+.mainpage {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 75px;
+  color: #381177;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.counterlink,
+.notfound,
+.error {
+  text-decoration: none;
+  color: #007bff;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.counterlink,
+.notfound,
+.error:hover {
+  color: #0056b3;
+}
+
+.new-homepage {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  color: #0077b6; /* You can use your preferred color code or name */
+}
+
+a {
+  text-decoration: none;
+  color: #05273a;
+}
+a:visited {
+  color: #4b0082;
+}
+a:hover {
+  text-decoration: underline;
+  color: #28795e;
+}
+a:active {
+  color: #e49a12;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+li {
+  margin-right: 10px;
+  box-sizing: border-box;
+  background-color: #d7a6e6;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  border-style: dashed;
+}
+ul ul {
+  list-style-type: square;
+}
+.homepage-p {
+  color: #000000;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
